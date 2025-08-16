@@ -1,0 +1,12 @@
+img{
+  display:block;
+}
+#image{
+  display:block;
+ height:auto;
+
+max-width:100%;
+}
+#img-content{
+text-align:center;
+}
