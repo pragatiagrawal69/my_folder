@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.search{
+    height: 50vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+}
+.shapes{
+ width: 131.24612426757812px;
+height: 302.0000305175781px;
+}
+.rec3{
+width: 37.4988899230957px;
+height: 37.4988899230957px;
+   background-color: green;
+}
+.rec2{
+   width: 92.4079818725586px;
+height: 92.4079818725586px;
+background-color: dodgerblue;
+}
+.tri{
+  width: 0;
+  height: 0;
+  border-left: 65.62px solid transparent;   /* Half of 131.246 */
+  border-right: 65.62px solid transparent;
+  border-bottom: 131.25px solid yellow;  /* Height of triangle */
+}
+.circle{
+    width: 72.31929016113281px;
+height: 72.31929016113281px;
+border-radius: 50%;
+background-color: red;
+}
+.shapes {
+  position: fixed;       /* Use fixed to pin on screen */
+  bottom: 20px;          /* Distance from bottom */
+  right: 20px;           /* Distance from right */
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+}
+.search-box {
+    width: 100%;
+    background-color: transparent;
+    border:none;
+    border-radius: 9px;
+    color: white;
+    outline: none;
+    margin-left: 4px;
+}
+.search-container{
+    background-color: transparent;
+    width: 400px;
+    height: 68px;
+    border: 2px solid rgba(95, 99, 104, 1);
+    border-radius: 40px;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+
+}

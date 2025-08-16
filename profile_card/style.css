@@ -1,0 +1,63 @@
+body{
+height: 100vh;
+margin: 0;
+box-sizing: border-box;
+}
+main{
+    /* width: 100%; */
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+header{
+    width: 1289px;
+height: 52px;
+background-color: rgba(157, 64, 228, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card_container{
+    max-width: 335px;
+height: 404px;
+background-color: rgba(157, 64, 228, 1);
+border-radius: 30px;
+position: relative;
+}
+.image{
+    width: 108px;
+height: 108px;
+background-color: rgba(254, 186, 47, 1);
+border-radius: 50%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+overflow: hidden;
+border: 10px solid white;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+.heart img{
+    margin-left: 22px;
+    margin-top: 40px;
+}
+.white-box{
+    width: 291px;
+height: 232px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 30px;
+/* display: flex; */
+}
+.image img{
+    
+ width: 100%;   /* ✅ scale image to fill circle */
+  height: 100%;
+  object-fit: cover;
+}

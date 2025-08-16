@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #C2C2C2;
+}
+
+.container{
+    width: 200px;
+    height: 100vh;
+    padding: 18px;
+    background-color: #01222D;
+    color: white;
+    display: none;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+
+}
+.container.active {
+    transform: translateX(0);
+}
+.container div {
+    display: flex;
+    align-items: center;
+}
+
+h3{
+    background-color: #2D7090;
+    padding: 20px;
+    border-radius: 6px;
+}
+.svg{
+    width: 100px;
+    padding: 12px;
+    margin: 12px;
+    cursor: pointer;
+}
+.svg1{
+    position: relative;
+    max-width: 100px;
+    padding: 20px;
+}
+.hov:hover{
+    background-color: skyblue;
+    cursor: pointer;
+    border-radius: 8px;
+}
+span{
+    font-size: 20px;
+}

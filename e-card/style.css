@@ -1,0 +1,119 @@
+*{
+   /* box-sizing: border-box;  */
+}
+
+body{
+     background-color: hsla(205, 100%, 7%, 1);
+min-height: 761.5999755859375px;
+display: flex;
+justify-content: center;
+/* text-align: center; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: thistle;
+
+}
+.c1{
+    width: 338px;
+    height: 338px;
+    border-radius: 100%;
+    background-image: radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #A661FF 32.29%, #6100FF 98.59%);
+top: 3px;
+    left: 419px;
+}
+.c2{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    top: 472.86px;
+    left: -69.09px;
+}
+.c3{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-image: radial-gradient(67.47% 67.47% at 50% 50%, #FED0FF 0%, #7F00FF 100%);
+    top: 16.61px;
+    left: 1.19px;
+
+}
+.c{
+    position: absolute;
+}
+.box{
+    /* position: relative; */
+    margin: 75px;
+    width: 405.34375px;
+height: 521.3687133789062px;
+background-image:linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+border-radius: 16px;
+backdrop-filter: blur(15px);
+}
+.text{
+    padding: 20px;
+}
+.border{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 16px;
+
+}
+.beginner{
+    background-color: rgba(241, 198, 68, 0.24);
+    border-radius: 0.74px;
+    color: yellow;
+    padding: 2px 8px;
+}
+p{
+    
+font-weight: 700;
+font-size: 17.85px;
+margin: 0;
+}
+.container{
+      position: relative;
+      font-family: Montserrat;
+}
+.image{
+    width: 100%;
+}
+.title{
+    padding: 2px 8px;
+}
+.by{
+    font-size: 11px;
+    padding: 16px;
+}
+.star{
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+
+}
+.rating{
+    padding-left: 4px;
+    color: yellow;
+}
+
+.button{
+    border-top: 2px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    cursor: pointer;
+     padding-inline: 13px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    color: inherit;
+}
