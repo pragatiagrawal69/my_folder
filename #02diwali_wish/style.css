@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+}
+
+.part1 {
+    position: relative;
+    background-color:hsla(36, 99%, 49%, 1) ;
+}
+
+.jhalar {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    width: 250px;
+    /* display: block; */
+}
+
+.para {
+    position: absolute;
+    width: 587px;
+    top: 379px;
+    left: 124px;
+    font-size: 46.67px;
+    font-weight: 400;
+    margin-inline: 100px 150px;
+}
+
+.music {
+    width: 496px;
+    height: 61px;
+    background-color: hsla(36, 91%, 81%, 1);
+    position: absolute;
+    top: 624px;
+    left: 231px;
+    border-radius: 45.92px;
+    /* overflow: hidden; */
+}
+
+.deepak1 {
+    position: absolute;
+    left: -48px;
+    top: 624px;
+    height: 393px;
+}
+
+.deepak2 {
+    position: absolute;
+    left: 427px;
+    top: 685px;
+    height: 393px;
+}
+
+.wrapper img {
+    position: absolute;
+    top: 2.92px;
+    left: 4.54px;
+    transform: translate(10px, 10px);
+
+}
+.hori{
+    display: flex;
+    align-items: center;
+    gap: 10px   ;
+}
+.hori1{
+    height: 4px ;
+    background-color: wheat;
+    width: 468px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.span {
+    /* position: absolute;  */
+    /* top:645px; 
+    left:50px; */
+
+}
+
+audio {
+    /* position: absolute; */
+    transform: translate(11px, 3px);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #FBD7A2;
+    color: #000;
+
+}
+
+span img {
+    transform: translate(14px, -2px);
+}
+
+.part2 {
+    max-width: 1440px;
+    /* height: 1024px; */
+    background-color: hsla(36, 99%, 49%, 1);
+}
+
+.part2 img {
+    max-width: 800px;
+    display: block;
+    margin-inline: auto;
+}
+
+.part2 p {
+    max-width: 1364.8695068359375px;
+    /* height: 763.8695068359375px; */
+    font-size: 70.04px;
+    font-weight: 700;
+    /* line-height: 100%; */
+    font-family: style script;
+    left: 127px;
+}
+
+.part3 {
+    width: 1440px;
+    /* height: 1024px; */
+    background-color: hsla(36, 99%, 49%, 1);
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+    font-family: salsa;
+    font-weight: 400;
+    font-size: 46.67px;
+}
+
+.part4 {
+    width: 1440px;
+    /* height: 1024px; */
+    background-color: hsla(36, 99%, 49%, 1);
+}
+
+.white-text {
+    max-width: 855px;
+    /* height: 753px; */
+    background-color: hsla(0, 0%, 100%, 1);
+    padding: 18px;
+    left: 157px;
+}
+
+.part3 img {
+    position: absolute;
+    left: 670px;
+    top: 0px;
+}
+
+.part3 p {
+    width: 667px;
+    /* height: 173px; */
+}
+
+
+
+.white-box {
+    max-width: 1377px;
+    /* height:711px; */
+    background-color: white;
+}
+
+.thank {
+    font-family: style script;
+    width: 941px;
+    height: 93px;
+    font-size: 70px;
+    font-weight: 700;
+    left: 50px;
+}
+
+@media (max-width: 768px) {
+    .deepak1 {
+        display: block;
+        position: absolute;
+        left: 275px;
+        top: 685px;
+    }
+
+    .deepak2 {
+        display: none;
+    }
+
+    .para {
+        margin-inline: unset;
+        top: 379px;
+        left: 0;
+    }
+
+    .music {
+        position: absolute;
+        top: 624px;
+        left: 59px;
+        width: 350px;
+    }
+
+    .span {
+        display: none;
+    }
+
+    .span img {
+        display: none;
+    }
+
+    audio {
+        transform: translate(27px, -30px)
+    }
+    .part2 img {
+        Width: 666.31px;
+        height: 329.41px;
+    }
+        .white-text{
+            Width: 523px;
+            height: 200px;
+            font-size: 16px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    .part3 img {
+       width: 300px;
+       height: 300px;
+        left: 490px;
+    }
+    .part4 img {
+        
+       
+    }   
+
+}
