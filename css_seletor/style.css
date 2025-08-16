@@ -1,0 +1,20 @@
+li {
+    font-weight: 700;
+    font-size: larger;
+}
+.html {
+    color: #E96228;
+}
+.css {
+    color: #633194;
+}
+.js {
+    color: #DD9C24;
+}
+ul p {
+    color: hotpink;
+    background-color: aqua;
+}
+h1:hover {
+    color: aquamarine;
+}

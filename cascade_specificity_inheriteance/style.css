@@ -1,0 +1,23 @@
+.html {
+    background-color: crimson;
+}
+li {
+    background-color: chocolate;
+    color: chartreuse;
+}
+li {
+    background-color: aqua;
+    color: blue;
+}
+#html {
+    background-color: coral;
+}
+ul {
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+button {
+    font-size: inherit;
+    font-family: inherit;
+}

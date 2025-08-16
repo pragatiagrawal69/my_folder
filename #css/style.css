@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hashtag_header{
+    background-color: #065fd4;
+    color: white;
+    padding: 4rem;
+    background-image: url(/background.png);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 48%;
+
+}
+h1{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+span{
+    font-size: 2rem;
+}
+img{
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid white;
+    border-radius: 100%;
+    vertical-align: middle;
+    
+}
+img+img{
+margin-left: -2rem;
+}
+img-cont{
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: row-reverse;
+
+}

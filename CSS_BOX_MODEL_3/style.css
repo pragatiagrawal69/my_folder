@@ -1,0 +1,18 @@
+/* p{
+    background-color: chartreuse;
+    width: 300px;
+    height: 100px;
+    padding: 25px;
+    box-sizing: border-box;
+    border:10px solid green;
+    margin:20px;
+} */
+body{
+    margin:0;
+}
+.html{
+    background-color: cadetblue;
+    display: block;
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,32 @@
+html{
+    height: 800px;
+    font-size: 2em;
+}
+body{
+    margin:0;
+    height: 50%;
+    /* background-color: aquamarine; */
+    font-size: 2em;
+}
+section{
+    background-color: brown;
+    width:1em;
+    /* padding: 10vw; */
+    /* margin:10vw; */
+    border: 1vw solid green;
+    font-size: 2rem;
+    /* width: 400px; */
+    height: 50vh;
+    /* padding: 10%; */
+    box-sizing: border-box;
+}
+ .box{
+    background-color: blueviolet;
+     width: 1em;
+    /* height: 25vw;  */
+    padding: 0.5em;
+    margin:1em;
+    /* border: 10vw solid gold; */
+    /* box-sizing: border-box; */
+    font-size: 2em; 
+ }
