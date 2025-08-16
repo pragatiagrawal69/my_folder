@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; 
+    margin-bottom: -100px;
+}
+.red{
+    background-color: red;
+    position:relative;
+    z-index: 0;
+}
+.green{
+    background-color: rgb(102, 255, 0);
+    margin-left: 2rem;
+    position: relative;
+}
+.blue{
+    background-color: rgb(68, 0, 255);
+    margin-left: 3rem;
+    position: relative;
+    /* top: -200px; */
+}
+.conta-I {
+    background-color: hotpink;
+    box-shadow: 0 5px 16px black;
+    /* position: relative;
+    z-index: 5; */
+}
+.conta-II {
+    background-color: orangered;
+    margin-left: 2rem;
+    padding: 3rem;
+    position: relative;
+    z-index: 5;
+}
+.conta-II .red{
+    z-index: 100px;
+}
+.conta-I .blue {
+    z-index: 1;
+}
