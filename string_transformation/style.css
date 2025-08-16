@@ -1,0 +1,67 @@
+*{
+    font-family: Atma;
+}
+body{
+    text-align: center;
+}
+main{
+max-width: 900px;
+}
+input{
+        width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+    color: rgb(26, 32, 44);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    margin: 0px auto 1rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-image: initial;
+    border-radius: 6px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.transform-output{
+    display: block;
+    min-height: 2.5rem;
+   margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    padding: 0.75rem 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-image: initial;
+    border-radius: 4px;
+    
+}
+.transformers{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 1rem;
+    margin: auto;
+}
+.transform-items{
+    position: relative;
+    text-align: left;
+    background-color: rgb(248, 250, 252);
+    padding: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    border-image: initial;
+    border-radius: 6px;
+}
+.transform-label{
+        display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgb(74, 85, 104);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
