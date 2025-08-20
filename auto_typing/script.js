@@ -1,6 +1,6 @@
 
 const span = document.querySelector('span')
-const wordList = ['Web Developer', 'Programmer', 'Creator']
+const wordList = ['Web Developer.', 'Programmer.', 'Creator.']
 
 let wordIndex = 0
 let characterIndex = 0
@@ -29,11 +29,10 @@ const intervalId = setInterval(() => {
 
   if (span.innerText.length === 0 && reverseType) {
     reverseType = false
-    characterIndex = 0
     wordIndex++
   }
   
-  if (wordIndex === wordList.length - 1) {
+  if (wordIndex === wordList.length) {
     wordIndex = 0
   }
 
